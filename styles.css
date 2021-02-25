@@ -1,0 +1,136 @@
+
+body{
+	background-image: url("../images/citybg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+	font-size: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #709fb0;
+	color:white;
+	padding:15px;
+	padding-left: 150px;
+	border-top: solid;
+	border-right: solid;
+	border-left: solid;
+}
+
+h2{
+	font-size: 40px;
+	color: #709fb0;
+	padding-top: 40px;
+	margin-top: 20px;
+}
+
+.content{
+	max-width: 900px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border-radius: 15px;
+	display: block;
+	height: 625px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+footer{
+	background-color: #1a1b1f;
+	padding: 50px;
+	margin-top: 50px;
+	color: white;
+}
+
+footer a{
+	color: white;
+}
+nav{
+	position: sticky;
+	top: 0;
+	
+}
+nav ul{
+	background-color: #e8b66b;
+	margin-top: 0px;
+	border-color: white;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	padding: 0px;
+	max-height: 55px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	border-style: solid;
+}
+
+nav ul li{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+
+nav ul li a{
+
+	color:white;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 25px;
+}
+
+/* Navigation Hover */
+
+.navhover a:hover {
+	background-color: #4a47a3;
+}
+
+
+.contentimage{
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-radius: 500px;
+}
+.contentimageriver{
+	width: 200px;
+	float: right;
+	margin: 5px;
+
+}
+
+p{
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logo{
+	width: 100px;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+/*
+html {
+  scroll-behavior: smooth;
+} */
+
+.navbutton{
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
