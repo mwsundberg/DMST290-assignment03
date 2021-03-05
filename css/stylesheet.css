@@ -49,12 +49,12 @@ a:hover {
 	color: #0b8bc6;
 }
 
-section::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -130px; 
-  height: 130px; 
-  visibility: hidden; 
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -106,7 +106,7 @@ header {
 	grid-area: header;
   position: sticky;
 	top: 0; /* Only relevant to stickyness */
-  background: var(--background-color);;
+  background: var(--background-color);
   padding: 0 0 4px 0;
 	align-self: center;
 }
@@ -119,7 +119,26 @@ nav ul {
 	font-family: Inter, Helvetica, sans-serif;
 	font-size: 1.25rem;
 	margin-top: 0;
+	margin-bottom: 2rem;
 }
+/* Submenus */
+nav ul ul,
+nav ul:hover li.active:not(:hover) ul {
+	display: none;
+}
+/* Style for the submenu on hovered/active state */
+nav li:is(:hover, .active) ul {
+	display: block;
+	position: absolute;
+	font-size: 1rem;
+}
+/* Style for the hovered/active link */
+nav > ul > li:hover > a,
+nav > ul:not(:hover) > li.active > a {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
 /* Scrolling dependent code */
 header.horizontal nav li {
 	display: inline-block;
