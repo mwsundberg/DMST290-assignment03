@@ -7,9 +7,7 @@ html, body {
 	margin: 0;
 	border: 0;
 }
-* {
-	box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 :root {
   --background-color: #fcfcfc;
@@ -107,17 +105,16 @@ img.inset.right {
 	max-height: 50px;
 	height: 100%;
 }
+
 header {
 	grid-area: header;
-  position: sticky;
+	position: sticky;
 	top: 0; /* Only relevant to stickyness */
-  background: var(--background-color);
-  padding: 0 0 4px 0;
+	background: var(--background-color);
+	padding: 0 0 4px 0;
 	align-self: center;
 }
-header h1 {
-	margin: 0;
-}
+header h1 { margin: 0; }
 
 nav ul {
 	list-style: none;
@@ -165,16 +162,15 @@ header.vertical nav li {
 /* Main area */
 main {
 	grid-area: main;
-  overflow: auto;
+	overflow: auto;
 }
-
 main > * {
 	width: 100%;
 }
 
 #map {
 	height: 30rem;
-  z-index: -1;
+	z-index: -1;
 }
 
 /* Footer */
@@ -206,22 +202,18 @@ footer img {
 	}
 	header {
 		text-align: center;
-    position: inherit;
-    background: none;
-    padding: 0;
+		position: inherit;
+		background: none;
+		padding: 0;
 	}
 }
 
 /* Leave some space at top on scroll */
-[id] {
-	scroll-margin-top: 1.5rem;
-}
+[id] { scroll-margin-top: 1.5rem; }
 
 /* Smooth scrolling */
 @media (prefers-reduced-motion: no-preference) {
-	html {
-		scroll-behavior: smooth;
-	}
+	html { scroll-behavior: smooth; }
 }
 
 /* Fade in images */
