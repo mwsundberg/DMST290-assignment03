@@ -1,5 +1,5 @@
 /* Font imports*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@700;900&display=swap');
 
 /* Resets */
 html, body {
@@ -48,6 +48,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
+	font-weight: 700;
 	color: #0b8bc6;
 }
 
@@ -63,7 +64,7 @@ section::before {
 img {
 	max-width: 100%;
 	max-height: 100%;
-  border-radius: 6px;
+	border-radius: 6px;
 }
 img.inset {
 	width: 30%;
@@ -137,6 +138,7 @@ nav li:is(:hover, .active) ul {
 nav > ul > li:hover > a,
 nav > ul:not(:hover) > li.active > a {
 	text-decoration: underline;
+	font-weight: 700;
 	text-decoration-thickness: 2px;
 }
 
