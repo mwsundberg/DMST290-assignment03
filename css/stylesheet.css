@@ -34,6 +34,7 @@ h1, h2, h3, h4 {
 }
 h1 {
 	font-size: 4rem;
+	color: #0258A1;
 }
 h2 {
 	font-size: 2rem;
@@ -45,12 +46,11 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #0258A1;
+	color: #0b8bc6;
 }
 a:hover {
 	text-decoration: underline;
 	font-weight: 700;
-	color: #0b8bc6;
 }
 
 section::before {
@@ -117,6 +117,7 @@ header {
 header h1 {
 	margin: 0;
 }
+
 nav ul {
 	list-style: none;
 	padding-left: 0;
