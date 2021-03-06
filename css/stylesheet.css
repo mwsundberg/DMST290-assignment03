@@ -96,14 +96,14 @@ img.inset.right {
 /* Navigation content */
 .logo {
 	grid-area: logo;
-	margin: 1em;
+	margin: -2.5em 1em 1em 1em;
 	position: sticky;
 	top: 2em; /* Only relevant to stickyness */
 	justify-self: end;
 	align-self: center;
 }
 .logo img {
-	max-height: 125px;
+	max-height: 50px;
 	height: 100%;
 }
 header {
