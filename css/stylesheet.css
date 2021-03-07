@@ -99,14 +99,14 @@ img.inset.right {
 						 ".      main ."
 						 "footer footer footer";
 	column-gap: 1rem;
-	grid-template-columns: minmax(25ch, 1fr) minmax(100ch, 2fr) 1fr;
+	grid-template-columns: minmax(5ch, 1fr) minmax(100ch, 2fr) 1fr;
 	grid-template-rows: min-content;
 }
 
 /* Navigation content */
 .logo {
 	grid-area: logo;
-	margin: -2.5em 1em 1em 1em;
+	margin: -2.5em -5em 1em 1em;
 	position: sticky;
 	top: 2em; /* Only relevant to stickyness */
 	justify-self: end;
