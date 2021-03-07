@@ -11,12 +11,12 @@
   - Adapted the four sites' content into the planned structure
   - Standardized class names and tag choices
 - Added consistent navigation
-  - Created heirarchical tree structure
+  - Created hierarchical tree structure
   - Added CSS to show only one navigation subtree at once
 
 
 
 ### Visual Designer (Jennifer Ngene)
 
-- Edited the CSS code Matt Sundberg had with the initial files in the reositotry
+- Edited the CSS code Matt Sundberg had with the initial files in the repository
 - Made changes based on getting a sense of consistency within the website (changes logo size, scaled images down and repositioned them, imported new fonts, etc.)
