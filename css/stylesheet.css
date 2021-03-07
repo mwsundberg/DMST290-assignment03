@@ -196,29 +196,6 @@ footer img {
 	margin: 0.5rem;
 }
 
-/* Media queries */
-/* Small */
-@media screen and (max-width: calc(125ch + 4rem)) {
-	.container {
-		grid-template-areas: "logo"
-							 "header"
-							 "main"
-							 "footer";
-		grid-template-columns: 1fr;
-		padding: 0 2rem 0;
-	}
-	.logo {
-		position: relative;
-		justify-self: center;
-	}
-	header {
-		text-align: center;
-		position: inherit;
-		background: none;
-		padding: 0;
-	}
-}
-
 /* Leave some space at top on scroll */
 [id] { scroll-margin-top: 1.5rem; }
 
