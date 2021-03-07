@@ -2,8 +2,6 @@
 
 ## Roles
 
-### Visual Designer (Jennifer Ngene)
-
 ### Information Architect & Technician (Matt Sundberg)
 - Set up git repository
 - Selected and copied over 4 sites
@@ -15,3 +13,10 @@
 - Added consistent navigation
   - Created heirarchical tree structure
   - Added CSS to show only one navigation subtree at once
+
+
+
+### Visual Designer (Jennifer Ngene)
+
+- Edited the CSS code Matt Sundberg had with the initial files in the reositotry
+- Made changes based on getting a sense of consistency within the website (changes logo size, scaled images down and repositioned them, imported new fonts, etc.)
