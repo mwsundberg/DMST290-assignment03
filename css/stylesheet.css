@@ -78,6 +78,13 @@ img.inset.right {
 	margin: 0.75em;
 	margin-right: 0;
 }
+.index-img {
+	width: 450px;
+     height: 300px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
 
 /* Layout */
 .container {
